@@ -1,15 +1,16 @@
 {
   "name": "portfolio-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Manas Vohal's Personal Portfolio Website",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo 'This is a static site, no server needed'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "web-development"
+  ],
+  "author": "Manas Vohal",
+  "license": "MIT"
 }
