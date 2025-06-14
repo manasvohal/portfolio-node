@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Vohal | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">MV</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="intro-text">Hello, I'm</p>
+                    <h1 class="name">Manas <span>Vohal</span></h1>
+                    <h2 class="role" id="role"></h2>
+                    <p class="description">
+                        Driven developer with a solid foundation in software engineering and data science, combining technical expertise with a problem-solving mindset. Currently pursuing a double major at Rutgers University Honors College.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/manasvohal" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/manas-vohal" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:mv741@scarletmail.rutgers.edu" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+        <div class="bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="grid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="img-placeholder">
+                        <img src="images/profile.jpg" alt="Manas Vohal" class="about-photo" />
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Computer Science & <span>Data Science</span> Student</h3>
+                    <p>
+                        I'm a passionate student at Rutgers University Honors College pursuing a Bachelor's degree in Computer Science with a focus in Data Science. My academic journey has equipped me with a strong foundation in both theoretical concepts and practical applications of software development and data analytics.
+                    </p>
+                    <p>
+                        I'm particularly interested in the intersection of software engineering and data science, where I can leverage my skills to build innovative solutions that extract meaningful insights from complex datasets.
+                    </p>
+                    <div class="key-points">
+                        <div class="key-point">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Rutgers Honors College</span>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Analytics</span>
+                        </div>
+                        <div class="key-point">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Software Engineering</span>
+                        </div>
+                    </div>
+                    <div class="about-btns">
+                        <a href="ManasVResume.pdf" class="btn primary-btn">Download Resume</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            
+            <div class="timeline">
+                <!-- Work Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-icon work">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <h3>Software Engineering Intern</h3>
+                            <div class="company-logo">
+                                <img src="images/logos/penske_logo.png" alt="Penske Truck Leasing Logo">
+                            </div>
+                        </div>
+                        <h4>Penske Truck Leasing</h4>
+                        <p class="location">Reading, PA</p>
+                        <div class="date">May 2025 - Aug. 2025</div>
+                        <ul>
+                            <li>Developed a full-stack Quality Control web application using Angular for the front-end, delivering responsive and
+                                intuitive UI components to enhance user experience</li>
+                            <li>Built and maintained RESTful APIs and core backend logic using Java (Spring Boot), integrating seamlessly with a
+                                SQL database for efficient data storage and retrieval</li>
+                            <li>Collaborated in an Agile team using Git for version control, actively participating in code reviews, sprint planning,
+                                and testing to ensure high-quality, maintainable code</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon work">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <h3>Consumer Insights Data Analytics Externship</h3>
+                            <div class="company-logo">
+                                <img src="images/logos/beats_logo.png" alt="Beats by Dre Logo">
+                            </div>
+                        </div>
+                        <h4>Beats by Dre/Extern</h4>
+                        <p class="location">Remote</p>
+                        <div class="date">Sep. 2024 - Oct. 2024</div>
+                        <ul>
+                            <li>Performed sentiment analysis on 1,000+ consumer reviews using Python, identifying key areas for product improvement</li>
+                            <li>Conducted exploratory data analysis (EDA) on large datasets, uncovering trends that informed strategic decisions</li>
+                            <li>Developed data visualizations that enhanced strategic brand decisions by reducing reporting time by 40%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon work">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <h3>Web3 Security Data Analytics Externship</h3>
+                            <div class="company-logo">
+                                <img src="images/logos/webacy_logo.png" alt="Webacy Logo">
+                            </div>
+                        </div>
+                        <h4>Webacy/Extern</h4>
+                        <p class="location">Remote</p>
+                        <div class="date">Aug. 2024 - Sep. 2024</div>
+                        <ul>
+                            <li>Analyzed intelligent contracts in Ethereum, Arbitrum, Optimism, and Polygon for vulnerabilities</li>
+                            <li>Conducted peer validation, ensuring data set accuracy with a 99% validation success rate</li>
+                            <li>Demonstrated proficiency in Excel and Tableau, creating 20+ detailed visualizations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-icon education">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <h3>Bachelor of Science in Computer Science, Data Science</h3>
+                            <div class="company-logo">
+                                <img src="images/logos/rutgers_logo.png" alt="Rutgers University Logo">
+                            </div>
+                        </div>
+                        <h4>Rutgers University - Honors College</h4>
+                        <p class="location">New Brunswick, NJ</p>
+                        <div class="date">May 2027</div>
+                        <ul>
+                            <li>Pursuing a dual degree in Computer Science and Data Science</li>
+                            <li>Relevant coursework: Data Structures, Intro to Data Science, Design and Analysis of Computer Algorithms,
+                                Introduction to Discrete I and II, Computer Architecture, Principles of Information and Data Management,
+                                Numerical Analysis and Computing</li>
+                            <li>Dean's List: Fall 2023, Spring 2024, Fall 2025, Spring 2025</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-intro">
+                I've developed a diverse set of technical skills throughout my academic and professional journey. 
+                Here's an overview of what I bring to the table.
+            </p>
+
+            <div class="skill-filters">
+                <button class="filter-btn active" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+            </div>
+
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-intro">
+                Here are some of the projects I've worked on, showcasing my skills and experience in software development and data science.
+            </p>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="game">Games</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-intro">
+                Have a question or want to work together? Feel free to reach out to me directly.
+            </p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>New Brunswick, New Jersey</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:mv741@scarletmail.rutgers.edu">mv741@scarletmail.rutgers.edu</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:4849547753">484-954-7753</a></p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/manasvohal" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/manas-vohal" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-result" id="form-result"></div>
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Manas Vohal. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/manasvohal" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/manas-vohal" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:mv741@scarletmail.rutgers.edu" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
