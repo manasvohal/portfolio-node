@@ -942,6 +942,15 @@ section {
   padding: 0;
 }
 
+/* Custom styling for Property Chatbot project */
+.project-img.property-chatbot-img {
+  background-color: #25D366;
+  height: 320px;
+  background-size: contain;
+  background-position: center;
+  padding: 0;
+}
+
 /* ===== CONTACT SECTION ===== */
 .contact-section {
   background-color: var(--gray-bg);

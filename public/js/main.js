@@ -339,6 +339,16 @@ const skillsData = [
 // ===== PROJECTS DATA =====
 const projectsData = [
   {
+    title: 'Property Maintenance Chatbot',
+    description: 'Developed a Twilio-powered WhatsApp chatbot that automated over 150+ property maintenance requests, reducing tenant-service response time by 60%. Engineered a Node.js and Express.js backend to manage conversational flows, classifying 100% of incoming issues with follow-up logic for room, urgency, and scheduling. Enabled multi-channel opt-in (SMS + web form), leading to a 40% increase in maintenance reporting efficiency and improved tenant engagement.',
+    tags: ['Twilio', 'Node.js', 'WhatsApp Business API', 'Express.js'],
+    category: 'web',
+    date: 'June 2025',
+    githubUrl: 'https://github.com/manasvohal/property-chatbot',
+    icon: '<i class="fas fa-comment-dots"></i>',
+    image: 'images/projects/property_chatbot.svg'
+  },
+  {
     title: 'ReachSearch',
     description: 'Built a scalable web scraper in JavaScript (Node.js + Cheerio) to extract 250 faculty profiles and research areas from cs.rutgers.edu and cs.umd.edu. Architected a MongoDB backend for sub-100ms queries and deployed a RESTful API on AWS Elastic Beanstalk. Developed an iOS client in Swift with an AI-driven recommendation engine using OpenRouter LLM.',
     tags: ['Node.js', 'Cheerio', 'MongoDB', 'AWS', 'Swift', 'OpenRouter'],
@@ -424,10 +434,12 @@ const renderProjects = (category = 'all') => {
     const isReachSearch = project.title === 'ReachSearch';
     const isSnakeExtreme = project.title === 'Snake Extreme';
     const isPortfolio = project.title === 'Personal Portfolio';
+    const isPropertyChatbot = project.title === 'Property Maintenance Chatbot';
     let specialClass = '';
     if (isReachSearch) specialClass = 'reachsearch-img';
     if (isSnakeExtreme) specialClass = 'snake-extreme-img';
     if (isPortfolio) specialClass = 'portfolio-img';
+    if (isPropertyChatbot) specialClass = 'property-chatbot-img';
     
     projectCard.innerHTML = `
       <div class="project-img ${specialClass}" ${project.image ? `style="background-image: url('${project.image}');"` : ''}>
